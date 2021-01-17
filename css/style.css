@@ -6,16 +6,9 @@
 body{
     background-color: #000000;
     overflow-x: hidden;
-}
-.container{
-    margin: 0 auto;
-    width: 100vw;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
     background-color: #efefef;
 }
+
 header{
     width: 100vw;
     height: 10vh;
@@ -25,7 +18,7 @@ header nav.navigation {
     justify-content: space-between;
     align-items: center;
 }
-header nav.navigation .logo{
+img.logo{
     width: 100px;
     margin-left: 20px;
     cursor: pointer;
@@ -92,4 +85,69 @@ div.header .women{
 div.header .header-btn:hover{
     background-color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
+}
+/* css for footer */
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+
+.container-fluid {
+    overflow: hidden;
+    background: #262626;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: #989c9e !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+/* footer css end here */
+@media only screen and (max-width:500px){
+    header{
+        width: 100vw;
+        height: 100vh;
+    }
+    header nav {
+        position: relative;
+    }
+    header nav.navigation .logo{
+        width: 100%;
+    }
+    div.header .header-btn{
+        width: 100px;
+        left: 5%;
+        height: 50px;
+        top: 10%;
+        margin: 0 5px;
+    }
+    div.header .women{
+        width: 100px;
+        height: 50px;
+        left: 33%;
+        }
+        div.header img{
+            width: 100vw;
+            height: 100%;
+        }
 }
