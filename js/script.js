@@ -4,5 +4,7 @@ const ProductDescription = (e) =>{
 //     console.log("name:" + this.document.activeElement.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.textContent);
 product_name = this.document.activeElement.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.textContent;
 product_price = this.document.activeElement.previousElementSibling.previousElementSibling.previousElementSibling.lastElementChild.textContent;
+document.getElementById('products-container').style.display = "none";
+document.getElementById('product-descrition').style.display = "block";
 
 }

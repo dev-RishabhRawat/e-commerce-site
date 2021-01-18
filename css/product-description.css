@@ -2,6 +2,7 @@ div.product-description{
     background-color: #eeffee;
     display: flex;
     justify-content: space-evenly;
+    display: none;
 }
 div.product-description .product-images{
 flex-basis: 40%;
@@ -47,5 +48,5 @@ div.product-description .product-details .billing{
     justify-content: space-around;
 }
 div.product-description .product-details .billing button{
-    
+
 }
