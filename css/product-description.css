@@ -31,6 +31,8 @@ div.product-description .product-details .product-sizes{
     flex-direction: column;
     margin: 20px 0;
     border: 2px solid;
+    box-shadow: 2px 2px 0 #666666;
+    border-radius: 25px;
     height: 300px;
 }
 div.product-description .product-details .product-sizes .row{
@@ -48,5 +50,17 @@ div.product-description .product-details .billing{
     justify-content: space-around;
 }
 div.product-description .product-details .billing button{
+
+}
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 7px;
+    border-radius: 10px;
+}
+button:hover{
+    font-size: large;
+    color: #444444;
+    background-color: #fff;
 
 }
