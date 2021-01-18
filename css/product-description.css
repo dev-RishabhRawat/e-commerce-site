@@ -52,13 +52,13 @@ div.product-description .product-details .billing{
 div.product-description .product-details .billing button{
 
 }
-button {
+div.product-description button {
     background-color: #333;
     color: #fff;
     padding: 5px 7px;
     border-radius: 10px;
 }
-button:hover{
+div.product-description button:hover{
     font-size: large;
     color: #444444;
     background-color: #fff;
