@@ -1,0 +1,93 @@
+*{font-family: sans-serif;}
+.checkoutpage .container{max-width: 1000px;margin: 0px auto;padding: 0px 30px;}
+.checkoutpage form{display: flex;}
+.checkoutpage .left-side{
+    width: 47%;
+    margin-right: 6%;
+}
+.checkoutpage .left-side h2,.checkoutpage .right-side h2{
+    color: gray;
+    font-family: sans-serif;
+    margin-bottom: 37px;
+}
+.checkoutpage .left-side .firstname{   
+     display: flex;}
+     .checkoutpage .left-side .name{width: 48%;
+        margin-right: 4%;
+}
+.checkout_labels,.extra_large_label{    font-size: 16px;
+    margin-bottom: 5px;
+    color: #3c3b3b;
+}
+.checkout_fields{
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 3px;
+}
+.checkoutpage .left-side .lstname{    width: 48%;}
+.extra_large_label{
+    font-size: 20px;
+    
+}
+
+/*table stle*/
+.checkoutpage .right-side{
+    width: 47%;
+}
+.checkoutpage .right-side table{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+.checkoutpage .right-side thead{
+    background-color: #212529!important;
+    box-sizing: border-box;
+    color: #fff;
+}
+.checkoutpage .right-side thead td{
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+.checkoutpage .right-side tbody
+{
+    background-color: #d8d8d8;
+}
+.checkoutpage .right-side tbody td{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.checkoutpage .right-side tfoot
+{
+    background-color: #cecece;
+}
+.checkoutpage .right-side tfoot td{
+    padding: 15px 10px;
+}
+.payment{
+    background-color: #dedede;
+    padding: 20px 10px;
+    color: #000;
+    font-size: 16px;
+    box-shadow: inset 0px 0px 3px #9a9898;
+    margin-bottom: 30px;
+}
+.pbtn{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #212529;
+    color: #fff;
+}
+.payment img{
+    width: 158px;
+    /* float: left; */
+    vertical-align: middle;
+    margin-left: 20px;
+}

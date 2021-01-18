@@ -1,4 +1,5 @@
-let product_name,product_price;
+var product_name,product_price;
+var location;
 const ProductDescription = (e) =>{
 //     console.log("price : " + this.document.activeElement.previousElementSibling.previousElementSibling.previousElementSibling.lastElementChild.textContent);
 //     console.log("name:" + this.document.activeElement.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.textContent);
@@ -16,6 +17,4 @@ let imgSrc = this.document.activeElement.parentElement.parentElement.firstElemen
 let img = document.getElementsByClassName('product-image');
 img[0].src = `${imgSrc}`;
 img[1].src = `${imgSrc}`;
-
-
 }

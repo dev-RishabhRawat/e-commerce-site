@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout page</title>
+    <link rel="stylesheet" href="./css/checkout.css">
+</head>
+<body>
+    <section class="checkoutpage">
+        <section class="container">
+           
+               <form>
+                <div class="left-side">
+                    <h2>Billing Detailes</h2>
+                   <div class="firstname">
+                    <div class="name">
+                       <label for="firstname" class="checkout_labels">First Name</label>
+                       <input type="text" name="firstname" id="firstname" class="checkout_fields">
+                    </div>
+                    <div class="lstname">
+                        <label for="lastname" class="checkout_labels">LastName</label>
+                        <input type="text" name="lastname" id="lastname" class="checkout_fields">
+                    </div>
+                   </div>
+                   <br/>
+                   
+                   <label for="country" class="checkout_labels">Country</label>
+                   <input type="text" name="country" id="country" class="checkout_fields">
+                   <br/>
+                   <br/>
+                   <label for="street" class="checkout_labels">Street Address</label>
+                   <input type="text" name="street" id="street" class="checkout_fields">
+                   <br/>
+                   <br/>
+                   <label for="city" class="checkout_labels">Town/City</label>
+                   <input type="text" name="city" id="city" class="checkout_fields">
+                   <br/>
+                   <br/>
+                   <label for="code" class="checkout_labels">PostCode</label>
+                   <input type="text" name="code" id="code" class="checkout_fields">
+                   <br/>
+                   <br/>
+                   <label for="phone" class="checkout_labels">Phone Number</label>
+                   <input type="text" name="phone" id="phone" class="checkout_fields">
+                   <br/>
+                   <br/>
+                   <label for="email" class="checkout_labels">Email Address</label>
+                   <input type="email" name="email" id="email" class="checkout_fields">
+                   <br/>
+                   <br/>
+                   <label for="infomation" class="extra_large_label">Additional information</label>
+                   <br/>
+                   <span>Other notes(optional)</span>
+                   <textarea rows="4" cols="4" name="infomation" class="checkout_fields"></textarea>
+                </div> 
+                   <div class="right-side">
+                       <h2>Your Order</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Product</td>
+                                <td>Quantity</td>
+                                <td>Total</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                 <td id="order_name">Product name</td>
+                                 <td>1</td>
+                                 <td id="order_total">$300</td>
+                             </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr><td>Order Total</td><td colspan="2" id="order_price">$200</td></tr>
+                            <tr><td>Gst Ammount</td><td colspan="2" id="gst">$200</td></tr>
+                        </tfoot>
+                    </table>
+                    <div class="payment" class="checkout_labels">
+                        <input type="radio" name="paymentmethod" id="cash">Cash on delivery<br/>
+                        <br/>
+                        <hr>
+                        <br/>
+                        <input type="radio" name="paymentmethod" id="debit">Debit/credit card<img src="./images/Credit-Card-Logos.jpg" alt="credit card logos">
+                    </div>
+                    <input type="button" name="sumbit" value="Place order" class="pbtn">
+                   </div>
+
+               </form>              
+           
+        </section>
+    </section>
+    <script src="./js/checkout.js"></script>
+</body>
+</html>
