@@ -180,7 +180,7 @@
     background: #e91e63;
 }
 
-.container .card .contentBx a {
+.container .card .contentBx button {
     display: inline-block;
     padding: 10px 20px;
     background: transparent;
@@ -195,13 +195,13 @@
     transition: 0.5s;
 
 }
-.container .card .contentBx a:hover{
+.container .card .contentBx button:hover{
     color: #111;
     background-color: antiquewhite;
     transition: all ease 0.1;
 }
 
-.container .card:hover .contentBx a {
+.container .card:hover .contentBx button {
     opacity: 1;
     transform: translateY(0px);
     transition-delay: 0.75s;

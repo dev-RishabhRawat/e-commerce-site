@@ -1,0 +1,51 @@
+div.product-description{
+    background-color: #eeffee;
+    display: flex;
+    justify-content: space-evenly;
+}
+div.product-description .product-images{
+flex-basis: 40%;
+display: flex;
+flex-direction: column;
+}
+div.product-description .product-images img{
+    width: 300px;
+    height: 300px;   
+}
+div.product-description .product-details{
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+}
+/* css for name and price */
+div.product-description .product-details .product-price-and-name{
+    display: flex;
+    justify-content: space-between;
+    margin:1.1rem;
+}
+/* css for sizes */
+div.product-description .product-details .product-sizes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 20px 0;
+    border: 2px solid;
+    height: 300px;
+}
+div.product-description .product-details .product-sizes .row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+div.product-description .product-details .product-sizes .row button{
+    width: 100px;
+    margin: 5px 0;
+}
+/* css for billing  */
+div.product-description .product-details .billing{
+    display: flex;
+    justify-content: space-around;
+}
+div.product-description .product-details .billing button{
+    
+}
